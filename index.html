@@ -160,11 +160,18 @@
 	<script type="text/javascript" src="skrollr.js" ></script>
 	<script type="text/javascript">
 		skrollr.init({
-        render: function(data) {
-            //Debugging - Log the current scroll position.
-            console.log(data.curTop);
-        }
-    });
+			smoothScroll: true,
+	        render: function(data) {
+	            //Debugging - Log the current scroll position.
+	            console.log(data.curTop);
+        }});
+
+  		window.addEventListener('resize', function(event){
+  			setTimeout(function () {
+				  skrollr.get().refresh();
+			}, 0);
+		});
+
 	</script>
 </body>
 </html>

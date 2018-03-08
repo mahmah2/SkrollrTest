@@ -1,4 +1,5 @@
 @echo off
+rem echo  Skroller Test By Amir Mahfoozi
 rem echo  __      __        _        ___                               
 rem echo  \ \    / /  ___  ^| ^|__    / __^|  ___   _ _  __ __  ___   _ _ 
 rem echo   \ \/\/ /  / -_) ^| '_ \   \__ \ / -_) ^| '_^| \ V / / -_) ^| '_^|
